@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+:root {
+  --roboto: "Roboto", sans-serif;
+  --white: #ffffff;
+  --black-alpha: rgba(0, 0, 0, 0.85);
+  --text-sm: #444150;
+  --01-bab-3: #01bab3;
+  --bg-color: #f4f8fa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--bg-color);
+  font-family: var(--roboto);
+  font-weight: 400;
+}
+/* input */
+input:focus {
+  outline-color: #01bab3;
+}
+/* container */
+.container {
+  max-width: 1342px;
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.container-ms {
+}
+
+.form-option {
+  padding: 40px;
+}
+.navbar {
+  width: 100%;
+  background-color: var(--white);
+  height: 56px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.212);
+}
+.navigation {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 56px;
+}
+.logo-link {
+  height: 56px;
+  margin: 9px 409px 0px 0px;
+}
+.nav-list {
+  height: 56px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+  margin-right: 28px;
+}
+.nav-link {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: all 0.8s;
+}
+.nav-link:hover {
+  color: var(--text-sm);
+}
+.btn-group {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  height: 56px;
+}
+.btn-link {
+  font-family: var(--roboto);
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.65);
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid var(--text-sm);
+  padding: 5px 10px;
+  display: inline-block;
+  text-align: center;
+}
+.w-71 {
+  width: 71px;
+}
+.w-138 {
+  width: 138px;
+}
+.w-55 {
+  width: 55px;
+}
+
+.form-option {
+  width: 496px;
+  height: 849px;
+  text-align: center;
+  border-radius: 10px;
+  background: var(--White, #fff);
+  box-shadow: 0px 4px 56px 0px rgba(0, 0, 0, 0.04),
+    0px 12px 16px 0px rgba(0, 0, 0, 0.04);
+  margin: 25px auto;
+}
+.logo-form {
+  display: inline-block;
+  padding-bottom: 24px;
+}
+.form__header {
+  color: rgba(0, 0, 0, 0.85);
+  font-family: var(--roboto);
+  font-size: 29px;
+  font-weight: 700;
+  margin-bottom: 26px;
+}
+.form__paragriph {
+  color: #444150;
+  font-family: var(--roboto);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin-bottom: 56px;
+}
+.form-link {
+  color: var(--01-bab-3);
+  font-family: var(--roboto);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px; /* 162.5% */
+  margin-left: 10px;
+}
+.form-name {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+  color: #444150;
+  font-family: var(--roboto);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+label {
+  display: block;
+  text-align: left;
+}
+.input-name {
+  width: 200px;
+  padding: 10px 10px 14px 16px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  background: #fbfbfb;
+  color: #444150;
+  font-family: var(--roboto);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  margin-top: 8px;
+}
+.input-name::placeholder {
+  text-transform: capitalize;
+}
+.brithday {
+  display: block;
+  width: 100%;
+}
+.brith-group {
+  margin-bottom: 24px;
+  color: #444150;
+  font-family: var(--roboto);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+.brith-input {
+  padding: 14px 16px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  background: #fbfbfb;
+}
+.gander-body {
+  text-align: left;
+  width: 100%;
+  color: #444150;
+  font-family: var(--roboto);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+.gander-main {
+  display: flex;
+  gap: 16px;
+}
+.gander-label {
+  border-radius: 4px;
+  background: #fff;
+  padding: 14px 16px;
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+  background: #fbfbfb;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.gander-input {
+  width: 20px;
+  height: 20px;
+  background: var(--01-bab-3);
+}
+.gander-label:hover:checked {
+  border: 2px solid var(--01-bab-3, #01bab3);
+}
