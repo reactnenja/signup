@@ -99,7 +99,9 @@ input:focus {
 .w-55 {
   width: 55px;
 }
-
+span {
+  color: #01bab3;
+}
 .form-option {
   width: 496px;
   height: 859px;
