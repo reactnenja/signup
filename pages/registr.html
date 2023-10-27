@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/min.css" />
+    <link rel="stylesheet" href="../css/reg.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navigation">
+            <a href="./pages/login.html" class="logo-link">
+              <img src="../images/logo.svg" alt="logo" class="logo"
+            /></a>
+            <ul class="nav-list">
+              <li class="nav-list">
+                <a href="#" class="nav-link">Services</a>
+              </li>
+              <li class="nav-list"><a href="#" class="nav-link">About</a></li>
+              <li class="nav-list">
+                <a href="#" class="nav-link">Contacts</a>
+              </li>
+            </ul>
+            <div class="btn-group">
+              <a href="./login.html" class="btn-link w-71">Log in</a>
+              <a href="#" class="btn-link w-138">Open an account</a
+              ><a href="#" class="btn-link w-55">En</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ======================== MAIN ======================== -->
+    <main class="main">
+      <div class="container">
+        <div class="form-option">
+          <a href="#" class="logo-form">
+            <img src="../images/logo.svg" alt="logo-site" />
+          </a>
+          <h1 class="form__header">Welcome to ByTrend!</h1>
+          <p class="form__paragriph">
+            Already have an account? <a href="#" class="form-link">Log in</a>
+          </p>
+          <div class="mb-24">
+            <label for="email" class="email-label">
+              Email <span>*</span>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-input-email"
+                placeholder="Your email" />
+            </label>
+          </div>
+          <div class="mb-24">
+            <label for="phone">
+              Phone<span>*</span>
+              <div class="number">
+                <div class="inp-form">+7</div>
+                <input
+                  type="text"
+                  name="phone"
+                  id="phone"
+                  class="form-input-phone"
+                  placeholder="965-748-89-90" />
+              </div>
+            </label>
+          </div>
+          <div class="mb-24">
+            <div class="form-main">
+              <label for="country">
+                Country<span>*</span>
+                <select class="form-input-sel" name="country" id="">
+                  <option value="en">En</option>
+                  <option value="uz">Uz</option>
+                  <option value="ru">Ru</option>
+                </select>
+              </label>
+              <label for="city">
+                City <span>*</span>
+                <input
+                  type="text"
+                  name="city"
+                  id="city"
+                  class="form-input-city"
+                  placeholder="Name of the city" />
+              </label>
+            </div>
+          </div>
+          <div class="mb-24">
+            <label for="password">Password:</label>
+            <div class="password-box">
+              <input type="password" id="password" />
+              <i class="bi bi-eye-slash" id="toggle-password"></i>
+            </div>
+          </div>
+          <div class="mb-24">
+            <label for="conf">
+              Confirm password <span>*</span>
+              <input
+                type="password"
+                name="confirm"
+                id="confirm"
+                class="confirm-form" />
+            </label>
+          </div>
+          <div class="mb-24">
+            <a href="#" class="btn-link-form">
+              Contune <img src="../images/arrow-r.svg" alt="arrow-r" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- ======================== MAIN ======================== -->
+
+    <!-- script -->
+    <script src="../js/main.js"></script>
+    <!-- script -->
+  </body>
+</html>

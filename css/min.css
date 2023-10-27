@@ -24,6 +24,12 @@ body {
   font-weight: 400;
 }
 /* input */
+input::placeholder {
+  opacity: 0.5;
+}
+.gander-label {
+  opacity: 0.5;
+}
 input:focus {
   outline-color: #01bab3;
 }
@@ -90,6 +96,10 @@ input:focus {
   display: inline-block;
   text-align: center;
 }
+.btn-link:hover {
+  background-color: #444150;
+  color: white;
+}
 .w-71 {
   width: 71px;
 }
@@ -115,6 +125,9 @@ span {
 .logo-form {
   display: inline-block;
   padding-bottom: 24px;
+}
+.gander-label {
+  border: 1px solid #01bab3;
 }
 .form__header {
   color: rgba(0, 0, 0, 0.85);
@@ -256,6 +269,9 @@ label {
   line-height: 24px; /* 150% */
   margin-top: 8px;
 }
+.promo::placeholder {
+  text-transform: capitalize;
+}
 .form-bottom {
   width: 100%;
   display: block;
@@ -271,6 +287,7 @@ label {
   text-align: center;
   font-family: var(--roboto);
   font-size: 18px;
+  text-decoration: none;
   font-weight: 600;
   padding: 12px 151px;
   border-radius: 4px;
