@@ -185,3 +185,11 @@
   transform: scale(0.7);
   background-color: black;
 }
+.text-blue {
+  color: var(--text-blue, #01bab3);
+}
+.text-align-center {
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+}
